@@ -6,10 +6,10 @@ class App extends React.Component {
     this.state = {
       users: [
         {
-          name: "Test User 1",
+          userName: "Test User 1",
         },
         {
-          name: "Test User 2"
+          userName: "Test User 2"
         },
       ]
     }
@@ -19,7 +19,7 @@ class App extends React.Component {
     return (
       <div>
         {
-          this.state.users.map((user) => <li>{user.name}</li>)
+          this.state.users.map((user) => <li>{user.userName}</li>)
         }
       </div >
     );

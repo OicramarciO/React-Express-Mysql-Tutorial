@@ -47,10 +47,10 @@ App.js:
         this.state = {
         users: [
             {
-            name: "Test User 1",
+            userName: "Test User 1",
             },
             {
-            name: "Test User 2"
+            userName: "Test User 2"
             },
         ]
         }
@@ -60,7 +60,7 @@ App.js:
         return (
         <div>
             {
-            this.state.users.map((user) => <li>{user.name}</li>)
+            this.state.users.map((user) => <li>{user.userName}</li>)
             }
         </div >
         );
@@ -69,7 +69,6 @@ App.js:
     }
 
     export default App;
-
     ```
 
 With this we have create an react app, that handles state and properly returns a visual representation of what is in state, in the next step we are going to further populate our state and start adding in more functionality to manipulate it.
