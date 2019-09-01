@@ -124,4 +124,4 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
 
 Please continue to the react folder and read the README.md file in there while we gover the front end portion of this tutorial.
-`git checkout origin/step-1/initial-project-description`
+`git checkout origin/step-2/initialize-react-app`
